@@ -8,6 +8,6 @@ namespace minimal_api.DTOs
     public class LoginDTOController
     {
         public string Email { get; set; } = default!;
-        public string Password { get; set; } = default!;
+        public string Senha { get; set; } = default!;
     }
 }
